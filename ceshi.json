@@ -1,0 +1,66 @@
+{
+    "id" : " Marsyun.app.sub " ,
+    "name" : " Marsyun脚本订阅" ,
+    “作者”：“ @Mayun-OK ”，
+    "icon" : " https://github.com/Mayun-OK/Marsyun/blob/main/Marsyun.jpeg?raw=true " ,
+    “应用程序”：[
+	    {
+      "id" : " txstock " ,
+  "name" : "腾讯自选股" ,
+  “键”：[ “ TxStockAppUrl ”，“ TxStockAppHeader ”，“ TxStockWxHeader ” ]，
+  "作者" : " @gaofei " ,
+  “设置”：[{
+    "id" : " txstockSuffix " ,
+    "name" : "当前账号" ,
+    "val" : " 1 " ,
+    “类型”：“数字”，
+    "desc" : "当前抓取ck记录的编号，如：1、2、3、4 "
+  }, {
+    "id" : " txstockCount " ,
+    "name" : "账号个数" ,
+    "val" : " 1 " ,
+    “类型”：“数字”，
+    "desc" : "指定任务最多运行几个账号，根据抓取的账号数据个数来设置值"
+  }, {
+    "id" : " txstockXH " ,
+    "name" : "循环获取ck " ,
+    "val" : " 0 " ,
+    “类型”：“数字”，
+    "desc" : " 0关闭，1打开，默认关闭"
+  }, {
+    "id" : " txstockTXTX " ,
+    "name" : " txtx " ,
+    "val" : " 0 " ,
+    “类型”：“数字”，
+    "desc" : " 0关闭，1打开，默认关闭"
+  }, {
+    "id" : " txstockSC " ,
+    “名称”：“ sc ”，
+    "val" : " 0 " ,
+    “类型”：“数字”，
+    "desc" : " 0关闭，1打开，默认关闭"
+  }, {
+    "id" : " txstocknotifyttt " ,
+    "name" : "发送控制" ,
+    "val" : " 1 " ,
+    “类型”：“数字”，
+    "desc" : " 0关闭，以及 1 表达，默认 12 点 23 点表达"
+  }, {
+    “id”：“ txstocknotifyInterval ”，
+    "name" : "通知控制" ,
+    "val" : " 2 " ,
+    “类型”：“数字”，
+    "desc" : " 0关闭，1为所有通知，2为12，23点通知，3为6，12，18，23点通知"
+  }, {
+    "id" : " txstockMinutes " ,
+    "name" : "发送-通知分钟控制" ,
+    "val" : " 10 " ,
+    “类型”：“数字”，
+    "desc" : "通知以及通知控制在什么分钟段，可设置0-59，默认0到10 "
+  }],
+                        “回购”：“ https://raw.githubusercontent.com/gaofeird/test/main/txstock.js ”，
+                            "图标" : [ " https://github.com/Mayun-OK/Marsyun/blob/main/txstock.png?raw=true " , " https://github.com/Mayun-OK/Marsyun/blob/ main/txstock.png?raw=true " ],
+                                “脚本”：“ https://raw.githubusercontent.com/Mayun-OK ”
+  }
+            ]
+}
